@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: 'gothambold';
+    src: url('gothambold-webfont.woff2') format('woff2'),
+         url('gothambold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gothambook';
+    src: url('gothambook-webfont.woff2') format('woff2'),
+         url('gothambook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gothammedium';
+    src: url('gothammedium-webfont.woff2') format('woff2'),
+         url('gothammedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'orkneyregular';
+    src: url('orkney-regular-webfont.woff2') format('woff2'),
+         url('orkney-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, p, ul, ol, dl, input, textarea {
+    font-family: 'gothammedium' , sans-serif;
+     
+    
+}
+p{
+    font-family: 'gothambook';
+}
+h1, h2, h3, h4, h5, h6, strong{
+    font-family: 'gothambold';
+}
+
+header {
+    margin: 60px 0;
+}
+header a.nav-link{
+    color: #f18815 !important;
+}
+
+#quem-somos{
+    background: #f18815;
+    padding: 40px 0;
+}
+
+.parallax-window {
+    min-height: 700px;
+    background: transparent;
+}
+
+.descricao-quem-somos {
+    -webkit-column-count:2; /* Chrome, Safari, Opera */
+    -moz-column-count:2;    /* Firefox */
+    column-count:2;         /* padrão */
+}
+#o-que-fazemos{
+    background: #f18815;
+    color: #fff;
+    padding: 130px 0;
+}
+
+#o-que-fazemos h2{
+    font-size: 5em;
+    margin-bottom: 60px;
+}
+#fale-conosco{
+    background: url(../../img/detalhe-contato.jpg) no-repeat center top;
+}
