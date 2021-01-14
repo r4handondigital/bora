@@ -2,8 +2,7 @@ $(document).ready(function(){
 
 
 
-
-/*var nav = $('.lindddhas-mobile');
+var nav = $('.topo');
     
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
@@ -11,6 +10,6 @@ $(document).ready(function(){
         } else {
             nav.removeClass("f-nav");
         }
-    });*/
+    });
 
 });
