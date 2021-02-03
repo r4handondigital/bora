@@ -111,20 +111,21 @@ body{
     background: url(../../img/bg-inferior-capa.jpg) no-repeat center 433px;
 }
 
-.terceirize,.consolidacao{
+.terceirize,#app{
     font-family: 'gothammedium' , sans-serif;
     letter-spacing: -3px;
 }
 
-.terceirize span,.consolidacao span{
+.terceirize span{
     display: block;
 }
 .terceirize{
     font-size: 65px;
     color: #ff9224;
 }
-.consolidacao{
+#app{
     font-size: 31px;
+    max-width: 450px;
     color: #676666;
     margin-bottom: 30px;
 }
@@ -209,12 +210,16 @@ body{
 }
 
 .descricao-quem-somos {
-    -webkit-column-count:2; /* Chrome, Safari, Opera */
-    -moz-column-count:2;    /* Firefox */
-    column-count:2;         /* padrão */
+    /*-webkit-column-count:2; 
+    -moz-column-count:2;    
+    column-count:2;*/
+    padding-top:20%;         
 }
 
-
+.text-oque{
+    font-size:1.2rem;
+    margin-bottom: 40px;
+}
 /* O QUE FAZEMOS */
 
 
@@ -337,4 +342,104 @@ footer a{color: #c2c2c2;}
     font-size:21px;
     color: #9c9b9b;
     font-weight: bold;
+}
+
+
+
+
+@media only screen and  (max-width:790px){
+
+
+    #ilustracao {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .dinheiro-bolso{
+        margin-left:0;
+
+    }
+
+    .dinheiro-bolso img{
+        width: 100%;
+    }
+
+    .terceirize,#quem-somos h1,#o-que-fazemos h2,#fale-conosco h3 {
+        font-size: 2.5rem;
+        line-height: 2.4rem;
+    }
+
+    header {
+        margin: 0px 0 60px 0;
+    }
+    .text-end{
+        text-align: center !important;
+    }
+    #fale-conosco h4{
+        font-size: 1.4rem;
+    }
+
+    footer{
+        text-align: center;
+    }
+    .destaque-miolo{
+        height: 250px;
+    }
+
+    #app {
+    font-size: 1.3rem;
+    max-width: 100%;
+    color: #676666;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.btn-outline-warning {
+    color: #ff9224;
+    border-color: #ff9224;
+    width: 100%;
+    font-size: 1rem;
+}
+
+#o-que-fazemos {
+    background: #f18815;
+    color: #fff;
+    padding: 50px 0;
+}
+#quem-somos{
+    padding: 30px 0;
+}
+
+.descricao-quem-somos {
+    padding-top: 30px;
+}
+#fale-conosco {
+    background: #fff url(../../img/detalhe-contato.jpg) no-repeat center -113px;
+    padding-bottom: 0;
+}
+
+#fale-conosco img {
+    margin-bottom: 50px;
+}
+
+#fale-conosco h3 {
+    color: #f18815;
+    line-height: 2.9rem !important;
+}
+
+.logo-bora{
+    width: 70%;
+}
+
+.f-nav{
+    position: relative !important;
+}
+#fale-conosco button {
+    font-size: 1rem;
+    width: 100%;
+}
 }
